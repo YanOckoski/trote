@@ -1,0 +1,140 @@
+
+.container {
+  background: #29c19b;
+  box-shadow: 10px 10px 10px #0e1d2f;
+  border-radius: 20px;
+  margin: 64px;
+  color: #1c1c1c;
+  padding: 64px;
+  text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-style: bold;
+    font-size: 30px;
+    margin: 20px;
+
+}
+
+
+.perfil-foto {
+ border-radius: 50%;
+  max-height: 120px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+
+p {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+
+body {
+  font-family: "Shadows Into Light", sans-serif;
+  background-color:#000000 ;
+  font-weight: lighter;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background: linear-gradient(236.85deg, #0f8f69 27.26%, #205595 96.03%);
+  
+}
+
+
+.social-logo {
+    display: inline-block;
+    border-radius: 10px;
+    max-height: 20px;
+    margin-right: 5px;
+   
+}
+
+main {
+    background: #29c19b;
+    box-shadow: 10px 10px 10px #0e1d2f;
+    border-radius: 20px;
+    margin: 64px;
+    color: #1c1c1c;
+    padding: 64px;
+   vertical-align: baseline;
+   
+  }
+
+  .principal {
+    display: flex;
+    flex-direction: left;
+    background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    margin-top: 20px;
+   
+  }
+
+.input-padrao{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    width: 20%;
+    text-align: center;
+    
+}
+
+.submit{
+        width: 18%;
+        padding: 15px 0;
+        background: orange;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor: pointer;
+        text-align: center;
+    }
+  
+    .ligação{
+        text-align: center;
+
+    }
+    .ligar {
+        text-align: center;
+
+    }
+
+    @media screen and (max-width: 480px) { 
+      .container, .perfil, .perfil-foto {
+          width: auto;
+
+      }
+  }
+
+  h1 {
+    text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.submit {
+  width: 40%;
+  border-radius: 20px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 25px;
+  text-align: center;
+  width: 100px;
+  border-radius: 30%;
+}
